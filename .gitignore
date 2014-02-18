@@ -1,0 +1,12 @@
+*~
+*.patch
+*build.properties
+.buildpath
+.project
+.settings
+.DS_Store
+.vagrant
+.idea
+
+/bin
+/vendor

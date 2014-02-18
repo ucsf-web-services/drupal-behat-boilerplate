@@ -1,0 +1,19 @@
+# default profile
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: http://localhost
+      default_session: goutte
+      javascript_session: selenium2
+      browser_name: "firefox"
+      goutte:
+        guzzle_parameters:
+          curl.options: { "CURLOPT_SSLVERSION": "3" }
+          ssl.certificate_authority: false
+      selenium2:
+        capabilities: { "browser": "firefox", "version": "26" }
+    Drupal\DrupalExtension\Extension:
+      blackbox: ~
+      region_map: ~
+
+
