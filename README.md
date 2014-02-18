@@ -1,6 +1,8 @@
+# About
+
 Boilerplate for Drupal/Behat tests.
 
-## Installation
+# Installation
 
 
 1. [Get Composer](https://getcomposer.org/doc/00-intro.md).
