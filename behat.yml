@@ -15,5 +15,8 @@ default:
     Drupal\DrupalExtension\Extension:
       blackbox: ~
       region_map: ~
+  filters:
+   # don't process scenarios and features tagged as "ignored"
+    tags: '~@ignored'
 
 
