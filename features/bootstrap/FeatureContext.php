@@ -7,11 +7,6 @@ use Drupal\DrupalExtension\Context\DrupalContext;
  */
 class FeatureContext extends DrupalContext
 {
-    /**
-     * @Given /^I am on the home page$/
-     */
-    public function iAmOnTheHomePage()
-    {
-        $this->visit("/");
-    }
+
 }
+
