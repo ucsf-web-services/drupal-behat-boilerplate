@@ -1,4 +1,4 @@
-# About
+## About
 
 Boilerplate for Drupal/Behat tests. You may use this as a starting point for rolling your own Behat tests.
 
