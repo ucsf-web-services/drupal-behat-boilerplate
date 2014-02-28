@@ -20,3 +20,8 @@ default:
     tags: '~@ignored'
 
 
+# Use this profile to run all tests in Firefox
+browser:
+  extensions:
+    Behat\MinkExtension\Extension:
+      default_session: selenium2
