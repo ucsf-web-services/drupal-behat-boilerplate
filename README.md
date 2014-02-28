@@ -3,7 +3,7 @@
 Boilerplate for Drupal/Behat tests. You may use this as a starting point for rolling your own Behat tests.
 
 
-## Pre-requisites
+## Prerequisites
 
 It is assumed that the following software is already installed:
 
