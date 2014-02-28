@@ -14,7 +14,7 @@ It is assumed that the following software is already installed:
 
 ## Installation
 
-1. [Get Composer](https://getcomposer.org/doc/00-intro.md).
+1. Install [Composer](https://getcomposer.org/doc/00-intro.md).
 2. Checkout the repo, install Behat via Composer.
 ```bash
 git clone https://github.com/ucsf-drupal/drupal-behat-boilerplate.git
