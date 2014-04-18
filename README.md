@@ -40,7 +40,7 @@ bin/behat
 
 ### Running tests in the web-browser
 
-1. In a terminal window,  run Selenium.
+1. In a command line terminal, run Selenium.
 
     ```
     cd <project>
