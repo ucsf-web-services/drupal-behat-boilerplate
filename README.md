@@ -40,13 +40,14 @@ bin/behat
 
 ### Running tests in the web-browser
 
-1. Run Selenium as standalone
+1. In a command line terminal, run Selenium.
 
     ```
-    java -jar /path/to/your/selenium-server-standalone.jar
+    cd <project>
+    java -jar bin/selenium-server.jar
     ```
 
-2. Run Behat tests with the "browser" profile
+2. Then open another terminal window and run Behat with the "browser" profile.
 
     ```
     cd <project>
